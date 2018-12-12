@@ -1,3 +1,3 @@
 # travel-agency
 
-sass --watch assets/src/main.scss:assets/dist/main.css
+sass --watch assets/scss/main.scss:assets/css/main.css
