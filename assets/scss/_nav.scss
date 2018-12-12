@@ -1,3 +1,53 @@
 .nav {
   background-color: #5474fd;
+  margin: 0;
+  //padding: 0;
+
+
+  &__logo {
+    margin: 0;
+    padding: 27px 0;
+    float: left;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  &__list {
+    float: right;
+    list-style: none;
+    font-size: 0;
+  }
+
+  &__item {
+    display: inline-block;
+
+  }
+
+  &__link {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 27px 38px;
+    font-family: Aleo, serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 26px;
+    text-transform: uppercase;
+
+
+    &:last-child {
+      padding-right: 0;
+    }
+
+    &:hover {
+      color: #07111a;
+      transition: color 1s;
+
+    }
+  }
 }
