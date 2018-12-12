@@ -1,0 +1,27 @@
+@font-face {
+  font-family: Aleo;
+  src: url("../fonts/aleo-regular-webfont.woff2");
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+p, h1, h2, ul {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 50px;
+  width: 1100px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
