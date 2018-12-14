@@ -1,0 +1,37 @@
+.button {
+  display: inline-block;
+  padding: 15px 34px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family: Aleo, serif;
+  text-decoration: none;
+  letter-spacing: 1.2px;
+  background-color: #5474fd;
+  transition: background-color 1s;
+
+  &--search {
+    border: 2px solid #ffffff;
+    padding: 15px 15px 15px 32px;
+    font-size: 14px;
+    line-height: 26px;
+  }
+
+  &--book-now {
+    padding: 15px 63px;
+  }
+
+  &:hover {
+    background-color: #1e4bff;
+    cursor: pointer;
+  }
+
+  &__icon-search {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-left: 10px;
+  }
+}

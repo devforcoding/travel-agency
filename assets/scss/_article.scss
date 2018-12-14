@@ -5,14 +5,23 @@
   &__book {
     width: 540px;
     padding: 50px 30px;
-    background-color: #232323;
-    opacity: 0.9;
+    background-color: rgba(35, 35, 35, 0.9);
+
+    &-content {
+      margin-bottom: 48px;
+
+    }
 
     p {
       color: #e8e8e8;
       font-size: 16px;
       font-weight: 300;
       line-height: 26px;
+
+      &:last-child {
+        padding-bottom: 0;
+
+      }
     }
 
     h3 {
@@ -33,33 +42,35 @@
 
     &--lf {
       box-sizing: border-box;
-      margin: 229px auto 100px 0;
+      margin: 226px auto 100px 0;
 
     }
 
     &--rg {
       box-sizing: border-box;
-      margin: 229px 0 100px auto;
+      margin: 226px 0 100px auto;
     }
 
     &--choose {
-      padding: 204px 95px 132px 0;
+      padding: 204px 95px 120px 0;
       background: none;
       font-weight: 300;
       line-height: 26px;
 
       & h2 {
-        padding-bottom: 60px;
+        padding-bottom: 62px;
         font-family: Aleo, serif;
         font-size: 36px;
+        line-height: 26px;
         font-weight: 300;
       }
 
       p {
         color: #e8e8e8;
         font-size: 16px;
+        line-height: 26px;
         letter-spacing: 1.6px;
-        padding-bottom: 35px;
+        padding-bottom: 25px;
 
       }
     }
