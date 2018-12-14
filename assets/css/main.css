@@ -578,4 +578,27 @@ p, h1, h2, ul {
   float: right;
 }
 
+.stages {
+  background-color: #333333;
+  padding: 80px 0 114px;
+}
+.stages__item {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.stages__item span {
+  color: #e8e8e8;
+  font-family: Aleo;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 36px;
+}
+.stages__icon {
+  width: 96px;
+  height: 96px;
+  margin-bottom: 10px;
+  align-self: center;
+}
+
 /*# sourceMappingURL=main.css.map */
