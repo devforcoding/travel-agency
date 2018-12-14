@@ -1,0 +1,28 @@
+.stages {
+  background-color: #333333;
+  padding: 80px 0 114px;
+
+  &__item {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+
+    span {
+      color: #e8e8e8;
+      font-family: Aleo;
+      font-size: 36px;
+      font-weight: 400;
+      line-height: 36px;
+    }
+  }
+
+  &__icon {
+    width: 96px;
+    height: 96px;
+    margin-bottom: 10px;
+    align-self: center;
+
+  }
+
+}
