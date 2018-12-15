@@ -1,0 +1,41 @@
+.reviews {
+  background: url("../img/bg-5.jpg") no-repeat top center;
+  padding: 120px 0 200px;
+  color: #e8e8e8;
+
+
+  &__item {
+    display: grid;
+    grid-template-columns: 445px 1fr;
+    grid-template-rows: 284px;
+  }
+
+  &__content {
+    padding: 50px 58px;
+    background-color: #333333;
+  }
+
+
+  h2 {
+    text-align: center;
+    padding: 0;
+    margin-bottom: 100px;
+  }
+
+
+  p {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 300;
+    padding-bottom: 25px;
+  }
+
+  span {
+    display: block;
+    margin-bottom: 33px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 26px;
+    text-transform: uppercase;
+  }
+}
