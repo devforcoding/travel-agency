@@ -14,6 +14,23 @@ p, h1, h2, ul{
   margin: 0;
 }
 
+h2 {
+  padding-bottom: 62px;
+  font-family: Aleo, serif;
+  font-size: 36px;
+  line-height: 26px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
 .container {
   margin: 0 auto;
   padding: 0 50px;
@@ -22,7 +39,6 @@ p, h1, h2, ul{
   &--flex {
     display: flex;
   }
-
 }
 
 .clearfix::after {

@@ -1,0 +1,29 @@
+.footer {
+  padding: 120px 0 52px;
+  background-color: #232323;
+
+  &__logo {
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  &__subtitle {
+    display: block;
+    text-align: center;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 1.6px;
+  }
+
+
+
+}
