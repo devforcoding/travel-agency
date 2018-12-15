@@ -1,12 +1,11 @@
 .header {
-
   padding: 264px 0 130px;
-  background: url(../img/bg-1.jpg) no-repeat top center;
+  background: url("../img/bg-1.jpg") no-repeat top center;
   color: #ffffff;
   text-align: center;
 
   @media screen and (min-width: 1770px) {
-      background: url(../img/bg-1-2200.jpg) no-repeat top center;
+      background: url("../img/bg-1-2200.jpg") no-repeat top center;
   }
 
   &__title {
