@@ -6,7 +6,11 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Bhromaon</title>
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/slick/slick.css">
+    <link rel="stylesheet" href="assets/css/slick/slick-theme.css">
     <link rel="stylesheet" href="assets/css/main.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 </head>
 <body>
 <header class="header">
@@ -116,27 +120,28 @@
         </div>
     </div>
 </article>
-<section class="reviews">
+<section class="reviews" :style="{backgroundImage: 'url(' + bgImage + ')'}">
     <div class="container">
-    <h2>What Our  Tourist Say</h2>
-    <div class="reviews__item">
-        <img src="assets/img/reviews.jpg" alt="reviews">
-        <div class="reviews__content">
-            <span>Sam Sumon</span>
-            <p> But I must explain to you how all this mistaken idea of account to denouncinpleasure and praising pain
-                But I must explain to you how all this mistaken idea of account to nai denouncing pleasure and
-                praising pain was account  born and I account will give you a complete account of the system was account
-                born and I account will give you a nai the complete account of the system</p>
+        <h2>{{title}}</h2>
+        <div id="slider">
+            <review v-for="(review, i) in reviews"
+                    :key="++i"
+                    :name="review.name"
+                    :excerpt="review.excerpt"
+                    :image="review.image">
+            </review>
         </div>
-    </div>
     </div>
 </section>
 <footer class="footer">
     <div class="container">
-      <a class="footer__logo" href="#">Bhromaon</a>
-      <span class="footer__subtitle">Safe Travel Anywhere</span>
+        <a class="footer__logo" href="#">Bhromaon</a>
+        <span class="footer__subtitle">Safe Travel Anywhere</span>
     </div>
 </footer>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="assets/js/slick/slick.js"></script>
+<script src="assets/js/app.js"></script>
 <script src="assets/js/svg4everybody.js"></script>
 <script>
     svg4everybody();
